@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@300&family=Red+Hat+Display:wght@300&display=swap');
+body{
+    font-family: 'Comfortaa','cursive';
+}
+.section-top{
+    background-color: #facc15;
+    height: 5rem;
+}
+
+.heading{
+    color: #facc15;
+}
+.text-align{
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.section-textbox{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.button-design{
+    background-color: #facc15;
+    border: none;
+    padding: 1rem;
+    font-family:'Comfortaa','cursive' ;
+    height: 4rem;
+    width: 15rem;
+
+}
+.section-bottom{
+    height: 15rem;
+    background-color: #facc15;
+    padding:1rem,0rem;
+}
+.text-align1{
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.button-align{
+    padding-left:8rem;
+}
+
+    
