@@ -5,10 +5,10 @@ var serverURL="https://api.funtranslations.com/translate/minion.json"
 function constructURL(text){
     return serverURL + "?" + "text=" + text
 }
-//function errorhandler(error) {
-   // console.log("error occured",error)
-   // alert("some thing went wrong please try again later")
-//}
+function errorhandler(error) {
+   console.log("error occured",error)
+   alert("some thing went wrong please try again later")
+}
 function clickHandler(){
     var inputtxt=txtinput.value
 
@@ -17,7 +17,7 @@ function clickHandler(){
     .then(json => {
         var translatedValue = json.contents.translated 
         txtoutput.innerText = translatedValue})
-   // .catch(errorhandler);
+   .catch(errorhandler);
 
     }
     
